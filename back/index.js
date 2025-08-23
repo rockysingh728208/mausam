@@ -43,7 +43,7 @@ const app = express();
 // ✅ CORS setup
 const allowedOrigins = [
   "http://localhost:5173",   // development (vite frontend local)
-  "https://mausam-frontend-swart.vercel.app/"  // deployment (frontend vercel url)
+  "https://mausam-frontend-swart.vercel.app"  // deployment (frontend vercel url)
 ];
 
 app.use(cors({
